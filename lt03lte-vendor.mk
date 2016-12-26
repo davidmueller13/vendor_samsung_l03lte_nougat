@@ -20,5 +20,3 @@ PRODUCT_PACKAGES += \
     libTimeService
 
 $(call inherit-product, vendor/samsung/lt03lte/lt03lte-vendor-blobs.mk)
-
-$(call inherit-product, vendor/qcom/binaries/msm8974/graphics/graphics-vendor.mk)
