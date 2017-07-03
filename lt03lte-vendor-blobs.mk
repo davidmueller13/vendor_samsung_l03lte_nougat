@@ -227,6 +227,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/samsung/lt03lte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/lt03lte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
