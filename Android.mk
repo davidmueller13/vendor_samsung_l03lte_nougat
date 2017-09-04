@@ -52,4 +52,15 @@ LOCAL_PROPRIETARY_MODULE := true
 LOCAL_SRC_FILES := proprietary/vendor/lib/libTimeService.so
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libbtnv
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_OWNER := samsung
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MULTILIB := both
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/vendor/lib/libbtnv.so
+include $(BUILD_PREBUILT)
+
 endif
