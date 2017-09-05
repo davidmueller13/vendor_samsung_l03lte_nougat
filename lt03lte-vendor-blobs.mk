@@ -183,6 +183,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/lt03lte/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/samsung/lt03lte/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/lt03lte/proprietary/bin/perfd:system/bin/perfd \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/lt03lte/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
