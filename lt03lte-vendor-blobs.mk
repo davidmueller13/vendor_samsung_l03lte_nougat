@@ -210,7 +210,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/lt03lte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/lt03lte/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/lt03lte/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/lt03lte/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/samsung/lt03lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/lt03lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/lt03lte/proprietary/lib/libril.so:system/lib/libril.so \
