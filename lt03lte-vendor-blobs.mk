@@ -209,13 +209,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/lt03lte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/lt03lte/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/lt03lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/lt03lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/samsung/lt03lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/lt03lte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/lt03lte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/samsung/lt03lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/lt03lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/lt03lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
