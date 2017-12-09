@@ -207,12 +207,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/lt03lte/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/samsung/lt03lte/proprietary/bin/qcks:system/bin/qcks \
-    vendor/samsung/lt03lte/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/lt03lte/proprietary/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/lt03lte/proprietary/bin/radish:system/vendor/bin/radish \
     vendor/samsung/lt03lte/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/lt03lte/proprietary/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/samsung/lt03lte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/samsung/lt03lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
