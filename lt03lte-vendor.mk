@@ -21,4 +21,4 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product, vendor/samsung/lt03lte/lt03lte-vendor-blobs.mk)
 
-$(call inherit-product, vendor/samsung/msm8974-common/msm8974-common-vendor)
+$(call inherit-product, vendor/samsung/msm8974-common/msm8974-common-vendor.mk)
