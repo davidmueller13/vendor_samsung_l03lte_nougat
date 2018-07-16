@@ -20,10 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/samsung/lt03lte/proprietary/etc/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/samsung/lt03lte/proprietary/etc/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
     vendor/samsung/lt03lte/proprietary/etc/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
@@ -32,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/etc/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/samsung/lt03lte/proprietary/etc/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
@@ -83,13 +78,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libactuator_wv560_camcorder.so:system/vendor/lib/libactuator_wv560_camcorder.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libactuator_wv560_camera.so:system/vendor/lib/libactuator_wv560_camera.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_night_shot_ex.so:system/vendor/lib/libarcsoft_night_shot_ex.so \
     vendor/samsung/lt03lte/proprietary/lib/libarcsoft_nighthawk.so:system/vendor/lib/libarcsoft_nighthawk.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction_manual.so:system/lib/libarcsoft_picaction_manual.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
-    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/vendor/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction_manual.so:system/vendor/lib/libarcsoft_picaction_manual.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_picaction.so:system/vendor/lib/libarcsoft_picaction.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/vendor/lib/libarcsoft_selfie_camera_lite.so \
+    vendor/samsung/lt03lte/proprietary/lib/libarcsoft_sensorndk.so:system/vendor/lib/libarcsoft_sensorndk.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_b.so:system/vendor/lib/libchromatix_imx134_common_720p_b.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_720p_s.so:system/vendor/lib/libchromatix_imx134_common_720p_s.so \
     vendor/samsung/lt03lte/proprietary/lib/libchromatix_imx134_common_res0.so:system/vendor/lib/libchromatix_imx134_common_res0.so \
@@ -151,12 +146,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/samsung/lt03lte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/lt03lte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+    vendor/samsung/lt03lte/proprietary/lib/libhdcp2.so:system/vendor/lib/libhdcp2.so \
+    vendor/samsung/lt03lte/proprietary/lib/libOmxVdecHevc.so:system/vendor/lib/libOmxVdecHevc.so \
     vendor/samsung/lt03lte/proprietary/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/samsung/lt03lte/proprietary/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/samsung/lt03lte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/samsung/lt03lte/proprietary/lib/libstagefright_hdcp.so:system/vendor/lib/libstagefright_hdcp.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -199,7 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/bin/radish:system/vendor/bin/radish \
     vendor/samsung/lt03lte/proprietary/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/samsung/lt03lte/proprietary/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/samsung/lt03lte/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/samsung/lt03lte/proprietary/lib/librmnetctl.so:system/vendor/lib/librmnetctl.so \
     vendor/samsung/lt03lte/proprietary/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -223,14 +217,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
     vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
     vendor/samsung/lt03lte/proprietary/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
-    vendor/samsung/lt03lte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/lt03lte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/lt03lte/proprietary/lib/libliveframework.so:system/vendor/lib/libliveframework.so \
-    vendor/samsung/lt03lte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/lt03lte/proprietary/lib/libomission_avoidance.so:system/vendor/lib/libomission_avoidance.so \
     vendor/samsung/lt03lte/proprietary/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
     vendor/samsung/lt03lte/proprietary/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
     vendor/samsung/lt03lte/proprietary/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
     vendor/samsung/lt03lte/proprietary/lib/libTs_J_Awb.so:system/vendor/lib/libTs_J_Awb.so \
-    vendor/samsung/lt03lte/proprietary/lib/libvdis.so:system/vendor/lib/libvdis.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so
+    vendor/samsung/lt03lte/proprietary/lib/libvdis.so:system/vendor/lib/libvdis.so
