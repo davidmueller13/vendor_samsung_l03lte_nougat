@@ -174,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/lt03lte/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -187,7 +188,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/lt03lte/proprietary/bin/efsks:system/vendor/bin/efsks \
     vendor/samsung/lt03lte/proprietary/bin/ks:system/vendor/bin/ks \
-    vendor/samsung/lt03lte/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/samsung/lt03lte/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/samsung/lt03lte/proprietary/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/lt03lte/proprietary/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/lt03lte/proprietary/bin/radish:system/vendor/bin/radish \
