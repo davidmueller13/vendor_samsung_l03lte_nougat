@@ -200,7 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/lt03lte/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/lt03lte/proprietary/lib/libak8963c.so:system/vendor/lib/libak8963c.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/lt03lte/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
