@@ -165,13 +165,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/samsung/lt03lte/proprietary/bin/hvdcp:system/bin/hvdcp \
+    vendor/samsung/lt03lte/proprietary/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/samsung/lt03lte/proprietary/bin/mpdecision:system/vendor/bin/mpdecision \
-    vendor/samsung/lt03lte/proprietary/bin/perfd:system/bin/perfd \
+    vendor/samsung/lt03lte/proprietary/bin/perfd:system/vendor/bin/perfd \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/samsung/lt03lte/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/samsung/lt03lte/proprietary/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/samsung/lt03lte/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/samsung/lt03lte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/samsung/lt03lte/proprietary/bin/qmiproxy:system/vendor/bin/qmiproxy \
     vendor/samsung/lt03lte/proprietary/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -201,7 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/lt03lte/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/samsung/lt03lte/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/samsung/lt03lte/proprietary/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/lt03lte/proprietary/lib/libak8963c.so:system/vendor/lib/libak8963c.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
