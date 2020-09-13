@@ -66,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_image_stab.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_image_stab.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_imx134.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx134.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_imx135.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx135.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_mt9m114.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mt9m114.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_ov2720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2720.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l1yx.so \
@@ -106,24 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_preview.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_snapshot.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_zslshot.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_1080p_b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_1080p_b.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_1080p_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_1080p_s.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_res0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_res0.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_res1.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_res2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_res2.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common_res3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common_res3.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_common.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_default_video.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_golfshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_golfshot.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_hfr_1080p_b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_1080p_b.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_hfr_1080p_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_1080p_s.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_hfr_120.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_liveshot.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_pip.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_preview.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_snapshot.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_uhd_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_uhd_video.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_zslshot.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_common.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_default_video.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_pip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_pip.so \
@@ -134,13 +115,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_zslshot.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_vt_hd.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx134_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx134_vt.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_vt_hd.so \
-    vendor/samsung/lt03lte/proprietary/vendor/lib/libchromatix_imx135_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_vt.so \
     vendor/samsung/lt03lte/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/lt03lte/proprietary/vendor/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/lt03lte/proprietary/vendor/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/lt03lte/proprietary/vendor/etc/imx134_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imx134_module_info.xml \
-    vendor/samsung/lt03lte/proprietary/vendor/etc/imx135_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imx135_module_info.xml \
     vendor/samsung/lt03lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdecrypt.so \
     vendor/samsung/lt03lte/proprietary/vendor/lib/libdrmdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdiag.so \
